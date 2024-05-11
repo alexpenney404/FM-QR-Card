@@ -1,0 +1,30 @@
+body{
+    background-color:hsl(212, 45%, 89%);
+}
+
+.qr-card{
+    background-color: hsl(0, 0%, 100%);
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family:"Outfit", sans-serif;
+}
+
+.qr-card > img{
+    border-radius: 10px;
+}
+
+.qr-card > h1{
+    text-align: center;
+    font-weight:700;
+}
+
+.qr-card > p{
+    text-align: center;
+    font-weight:400;
+}
